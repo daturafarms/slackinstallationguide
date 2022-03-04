@@ -1,5 +1,5 @@
 # Slackware Linux Installation/Configuration Guide, 2022   
-![](Pictures/slacksample/initialslack.png)
+![](images/initialslack.png)
 
 Hello, this is a guide to installing the **BEST** Linux distribution for learning, Slackware-Current  
 This guide will cover installing Slackware-Current. I recommend Slackware-Current, the "rolling release" version, at least until 15.0 is released.  
@@ -31,7 +31,7 @@ If you do this, make sure virtualization is enabled in the BIOS settings.
 * Download Alienbob's Slackware-Current iso from [https://slackware.uk/people/alien-current-iso/slackware64-current-iso/slackware64-current-install-dvd.iso]  
 * Create a new virtual hard disk, with a minimum dynamically allocated size of 25 GB.
 * Click on "virtual optical drive" and select the slackware64-current iso, and proceed to hit "Start" to boot the operating system.
- ![](Pictures/slacksample/slack1.png)
+ ![](images/slack1.png)
 
 Hit enter when the "boot" prompt comes up, and the Slackware installer will boot. Now it's time to partition your drive.  
 
@@ -43,20 +43,20 @@ There are excellent guides on how to partition a hard disk such as (insert relev
 * You will only need to make one partition of default type, this is accomplished by typing 'n' to create  a new partition, hitting Enter a few times to accept the defaults, and running 'w' to write the partition table before quitting with 'q'  
 * I am omitting a swap partition and EFI compatibility for simplicity and brevity.  
 * Type 'setup' to enter the installer.  
-![](Pictures/slacksample/slack3.png)
+![](images/slack3.png)
 
 The "hard" part is thankfully over; manually partitioning a disk is an important thing to learn, and this is a good way to do so.  
 
 
 * In setup, select "add target", and hit enter a few times to accept the defaults.
 * When it asks where your installation media is, select the CD/DVD option. Leave all the package series selected until you know what you're doing, then select "full" or "terse" for installation display method. Feel free to take a break while Slackware is installed.
-![](Pictures/slacksample/slack4.png) 
+![](images/slack4.png) 
 * Skip making a USB boot stick.
 * Install LILO using the "simple" method, to the MBR
 * Finish the installation as you wish; my recommendation is to not configure your network now, use XFCE as your window manager, and leave the rest default.
 
 Congratulations, Slackware is installed, and ready to boot!
-![](Pictures/slacksample/slack6.png)
+![](images/slack6.png)
 
 I recommend installing the following tools if you wish to experiment with Slackware further:
 
